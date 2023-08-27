@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+<link href="assets/images/favicon.png" rel="icon" />
+<title>Verde | Documentation</title>
+<meta name="description" content="Your ThemeForest item Name and description">
+<meta name="author" content="harnishdesign.net">
+
+<!-- Stylesheet
+============================== -->
+<!-- Bootstrap -->
+<link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap/css/bootstrap.min.css" />
+<!-- Font Awesome Icon -->
+<link rel="stylesheet" type="text/css" href="assets/vendor/font-awesome/css/all.min.css" />
+<!-- Magnific Popup -->
+<link rel="stylesheet" type="text/css" href="assets/vendor/magnific-popup/magnific-popup.min.css" />
+<!-- Highlight Syntax -->
+<link rel="stylesheet" type="text/css" href="assets/vendor/highlight.js/styles/github.css" />
+<!-- Custom Stylesheet -->
+<link rel="stylesheet" type="text/css" href="assets/css/stylesheet.css" />
+</head>
+
+<body class="box" data-spy="scroll" data-target=".idocs-navigation" data-offset="125">
+
+<!-- Preloader -->
+<div class="preloader">
+  <div class="lds-ellipsis">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+</div>
+<!-- Preloader End --> 
+
+<!-- Document Wrapper   
+=============================== -->
+<div id="main-wrapper"> 
+  
+  <!-- Header
+  ============================ -->
+  <header id="header" class="sticky-top"> 
+    <!-- Navbar -->
+    <nav class="primary-menu navbar navbar-expand-lg navbar-dropdown-dark">
+      <div class="container-fluid">
+        <!-- Sidebar Toggler -->
+		<button id="sidebarCollapse" class="navbar-toggler d-block d-md-none" type="button"><span></span><span class="w-75"></span><span class="w-50"></span></button>
+		
+		<!-- Logo --> 
+        <a class="logo ml-md-3" href="index.html" title="iDocs Template"> <img src="assets/images/logo.png" alt="iDocs Template"/> </a> 
+		<span class="text-2 ml-2">v1.0</span> 
+        <!-- Logo End -->
+        
+		<!-- Navbar Toggler -->
+		<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#header-nav"><span></span><span></span><span></span></button>
+        
+		<div id="header-nav" class="collapse navbar-collapse justify-content-end">
+          <ul class="navbar-nav">
+            <li><a target="_blank" href="https://discord.com/api/oauth2/authorize?client_id=1110805663682138192&permissions=8&scope=applications.commands%20bot">Invite</a></li>
+            <li><a target="_blank" href="https://discord.gg/QSZY6CXjCR">Support</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar End --> 
+  </header>
+  <!-- Header End --> 
+  
+  <!-- Content
+  ============================ -->
+  <div id="content" role="main">
+    
+	<!-- Sidebar Navigation
+	============================ -->
+	<div class="idocs-navigation bg-light">
+      <ul class="nav flex-column ">
+        <li class="nav-item"><a class="nav-link active" href="#idocs_start">Verde</a>
+          <ul class="nav flex-column">
+            <li class="nav-item"><a class="nav-link" href="#idocs_installation">Adding Verde</a></li>
+            <li class="nav-item"><a class="nav-link" href="#utility_commands">Utility Commands</a></li>
+            <li class="nav-item"><a class="nav-link" href="#information_commands">Information Commands</a></li>
+            <li class="nav-item"><a class="nav-link" href="#moderation_commands">Moderation Commands</a></li>
+            <li class="nav-item"><a class="nav-link" href="#commits">Commits</a></li>
+          </ul>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <!-- Docs Content
+	============================ -->
+    <div class="idocs-content">
+      <div class="container"> 
+        
+        <!-- Getting Started
+		============================ -->
+        <section id="idocs_start">
+        <h1>Documentation</h1>
+        <p class="lead">Recent commits, command examples and more information.</p>
+		<hr>
+		<div class="row">
+			<div class="col-sm-6 col-lg-4">
+				<ul class="list-unstyled">
+					<li><strong>Version:</strong> 1.0</li>
+					<li><strong>Author:</strong> Pixel Development</li>
+				</ul>
+			</div>
+			<div class="col-sm-6 col-lg-4">
+				<ul class="list-unstyled">
+					<li><strong class="font-weight-700">Created:</strong> 22ⁿᵈ August, 2023</li>
+					<li><strong>Update:</strong> 26ᵗʰ August, 2023</li>
+				</ul>
+			</div>
+		</div>
+        <p class="alert alert-info">If you have any questions that are beyond the scope of this documentation, Please feel free to contact us for support via our <a target="_blank" href="https://discord.gg/QSZY6CXjCR">Discord Server</a>.</p>
+        </section>
+        
+		<hr class="divider">
+		
+        <!-- Installation
+		============================ -->
+        <section id="idocs_installation">
+          <h2>Adding Verde</h2>
+          <p class="lead">Follow the steps below to setup Verde in your Server:</p>
+          <ol>
+            <li>Follow this <a target="_blank" href="https://discord.com/api/oauth2/authorize?client_id=1110805663682138192&permissions=8&scope=applications.commands%20bot">link</a> and invite Verde to your Discord Server.</li>
+            <li>For complete functionality of the moderation module you need to:
+            <ul>
+			<li>Set up a few permissions for your Moderators
+			  <ul>
+                <li>The <code>kick_members</code> permission.
+                <li>The <code>ban_members</code> permission.
+                <li>The <code>mute_members</code> permission.
+                <li>The <code>manage_roles</code> permission.
+              </ul>
+			</li>
+      <li>Set up the mute command
+        <ul>
+                <li>Choose a role that you would like to use, using the /muterole command.
+                  <p>For example <code>/muterole @Moderators</code>
+        </ul>
+      </li>
+          </ol>
+        </section>
+        
+		<hr class="divider">
+		
+        <!-- HTML Structure
+		============================ -->
+        <section id="utility_commands">
+          <h2>Utility Commands</h2>
+          <p>Utility commands help ensure that your Server operates as smoothly as possible with regards to providing you with easy access to Server and Channel settings.</p>
+          <li><code>/autorole</code> - Set an Auto Role to give to new Members.
+            <p>Example: <code>/autorole [Role]</code>
+          <li><code>/addemoji</code> - Add a custom emoji to your server using a URL.
+            <p>Example: <code>/addemoji [EmojiName] [ImageURL]</code>
+          <li><code>/addrole</code> - Give a Role to a User.
+            <p>Example: <code>/addrole [User] [Role]</code>
+          <li><code>/removerole</code> - Take a Role from a User.
+            <p>Example: <code>/removerole [User] [Role]</code>
+          <li><code>/createrole</code> - Create a new Role.
+            <p>Example: <code>/createrole [Name] [Color]</code>
+          <li><code>/deleterole</code> - Delete an existing Role.
+            <p>Example: <code>/deleterole [Role]</code>
+          <li><code>/mentionable</code> - Toggle the mentionability of a Role.
+            <p>Example: <code>/mentionable [Role]</code>
+          <li><code>/createchannel</code> - Create a new Channel.
+            <p>Example: <code>/createchannel [text/voice/stage] [Name]</code>
+          <li><code>/deletechannel</code> - Delete an existing Channel.
+            <p>Example: <code>/deletechannel [Channel]</code>
+          <li><code>/slowmode</code> - Set a slowmode for a Channel.
+            <p>Example: <code>/slowmode [Channel] [Duration]</code>
+          <li><code>/nickname</code> - Set a nickname for a User.
+            <p>Example: <code>/nickname [User] [Nickname]</code>
+          <li><code>/poll</code> - Create a Poll.
+            <p>Example: <code>/poll [Option 1] [Option 2] [Duration]</code>
+        </section>
+    
+        <hr class="divider">
+		
+        <!-- HTML Structure
+		============================ -->
+        <section id="information_commands">
+          <h2>Information Commands</h2>
+          <p>Information commands provide you with extra details about various User and Server attributes.</p>
+          <li><code>/membercountchannel</code> - Set up a Live Member counter Channel.
+            <p>Example: <code>/membercountchannel</code>
+          <li><code>/user</code> - View information about a User.
+            <p>Example: <code>/user [User]</code>
+          <li><code>/server</code> - View information about your Server.
+            <p>Example: <code>/server</code>
+          <li><code>/role</code> - View information about a Role.
+            <p>Example: <code>/role [Role]</code>
+          <li><code>/channel</code> - View information about a Channel.
+            <p>Example: <code>/channel [Channel]</code>
+          <li><code>/bot</code> - View information about Verde.
+            <p>Example: <code>/bot</code>
+        </section>
+
+        <hr class="divider">
+		
+        <!-- HTML Structure
+		============================ -->
+        <section id="moderation_commands">
+          <h2>Moderation Commands</h2>
+          <p>Moderation commands help you to keep your Server safe and secure at all times.</p>
+          <li><code>/muterole</code> - Set up a Mute Role for your Server.
+            <p>Example: <code>/muterole [Role]</code>
+          <li><code>/kick</code> - Kick a User.
+            <p>Example: <code>/kick [User] [Reason]</code>
+          <li><code>/ban</code> - Ban a User.
+            <p>Example: <code>/ban [User] [Reason]</code>
+          <li><code>/mute</code> - Mute a User.
+            <p>Example: <code>/mute [User] [Duration]</code>
+          <li><code>/warn</code> - Warn a User.
+            <p>Example: <code>/warn [User] [Reason]</code>
+          <li><code>/warnings</code> - View all of a User's Warnings.
+            <p>Example: <code>/warnings [User]</code>
+          <li><code>/delwarn</code> - Delete a User's Warning.
+            <p>Example: <code>/delwarn [User] [Index]</code>
+          <li><code>/voicemute</code> - Mute a User in a Voice Channel.
+            <p>Example: <code>/voicemute [User] [Duration] [Reason]</code>
+        </section>
+        
+		<hr class="divider">
+		
+        <!-- Changelog
+		============================ -->
+		
+        <section id="commits">
+          <h2>Latest Commits</h2>
+          <p class="text-4">See what's new added, changed, fixed, improved or updated in the latest versions. </p>
+		  <p class="alert alert-info mb-5"> For Future Updates join our <a target="_blank" href="https://discord.gg/QSZY6CXjCR">Discord Server</a></p>
+          
+		  <h3 id="v1-1">Version 1.1 <small class="text-muted">(26 August, 2023)</small></h3>
+          <ul class="changelog">
+            <li><span class="badge badge-success">Added</span> Moderation Commands</li>
+            <li><span class="badge badge-danger">Fixed</span> Some minor bugs with the <code>/membercountchannel</code> Command</li>
+			<li><span class="badge badge-danger">Fixed</span> A minor issue with the <code>/autorole</code> Command</li>
+            <li><span class="badge badge-info">Updated</span> Verde's reaction times to commands</li>
+			<li><span class="badge badge-info">Updated</span> App Commands to latest version</li>
+          </ul>
+		  
+		  <hr class="divider">
+		  
+          <h3 id="v1-0">Version 1.0 <small class="text-muted">(22 August, 2023)</small></h3>
+          <p>Initial Release</p>
+        </section>        
+        
+      </div>
+    </div>
+	
+  </div>
+  <!-- Content end --> 
+  
+  <!-- Footer
+  ============================ -->
+  <footer id="footer" class="section bg-dark footer-text-light">
+    <div class="container">
+      <ul class="social-icons social-icons-lg social-icons-muted justify-content-center mb-3">
+        <li><a data-toggle="tooltip" href="https://discord.gg/QSZY6CXjCR" target="_blank" title="" data-original-title="Discord"><i class="fab fa-discord"></i></a></li>
+      </ul>
+      <p class="text-center">Copyright &copy; 2023 Pixel Development. All Rights Reserved.</p>
+    </div>
+  </footer>
+  <!-- Footer end -->
+  
+</div>
+<!-- Document Wrapper end --> 
+
+<!-- Back To Top --> 
+<a id="back-to-top" data-toggle="tooltip" title="Back to Top" href="javascript:void(0)"><i class="fa fa-chevron-up"></i></a> 
+
+<!-- JavaScript
+============================ -->
+<script src="assets/vendor/jquery/jquery.min.js"></script> 
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script> 
+<!-- Highlight JS -->
+<script src="assets/vendor/highlight.js/highlight.min.js"></script> 
+<!-- Easing --> 
+<script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script> 
+<!-- Magnific Popup --> 
+<script src="assets/vendor/magnific-popup/jquery.magnific-popup.min.js"></script> 
+<!-- Custom Script -->
+<script src="assets/js/theme.js"></script>
+</body>
+</html>
